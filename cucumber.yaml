@@ -1,0 +1,10 @@
+default: --profile html_report
+
+# reports
+html_report: --format html --out report/report.html --format pretty
+
+# drivers
+chrome: DRIVER=chrome
+
+# environment
+# live: environment=live

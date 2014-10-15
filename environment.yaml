@@ -1,0 +1,16 @@
+# ----- ENVIRONMENTS SETTINGS
+
+environments:
+  test:
+    url: "https://jira.atlassian.com/browse/TST"
+
+# ----- USERS SETTINGS
+
+users:
+  jira_valid_user:
+    username: "jell@ukr.net"
+    password_encoded: "YXRsYXNzaWFuOTA=\n"
+
+  # ----- GENERAL SETTINGS
+
+  close_browser_at_exit: true
